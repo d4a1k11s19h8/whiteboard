@@ -1,0 +1,15 @@
+.app-footer {
+  width: 100%;
+  background: #f1f1f1;
+  padding: 12px 18px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}

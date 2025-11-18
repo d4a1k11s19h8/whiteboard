@@ -1,0 +1,90 @@
+.user-list {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    min-width: 200px;
+}
+
+.user-list h4 {
+    margin: 0 0 1rem 0;
+    color: #1f2937;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.users-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.no-users {
+    color: #6b7280;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.user-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.user-item:hover {
+    background-color: #f8fafc;
+}
+
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.username {
+    flex: 1;
+    font-size: 0.9rem;
+    color: #374151;
+}
+
+.online-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #10b981;
+}
+
+/* Add these to your existing UserList.css */
+
+.kick-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+    padding: 2px 5px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.kick-btn:hover {
+    background-color: #fee2e2;
+}
+
+.you-badge {
+    background: #3b82f6;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
