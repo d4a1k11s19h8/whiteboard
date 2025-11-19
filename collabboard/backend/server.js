@@ -23,7 +23,7 @@ const allowedOrigins = [
 
 const io = socketIO(server, {
     cors: {
-        origin: allowedOrigins,
+        origin: "https://whiteboard-1-p4c5.onrender.com",
         methods: ["GET", "POST"]
     }
 });
@@ -156,3 +156,4 @@ server.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 
 });
+
