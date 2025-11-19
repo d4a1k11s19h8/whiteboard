@@ -35,7 +35,7 @@ const WhiteboardRoom = () => {
             return;
         }
 
-        const newSocket = io('http://localhost:5000');
+        const newSocket = io('https://whiteboard-afvw.onrender.com');
         setSocket(newSocket);
 
         if (roomId) {
@@ -274,5 +274,6 @@ const WhiteboardRoom = () => {
         </div>
     );
 };
+
 
 export default WhiteboardRoom;
