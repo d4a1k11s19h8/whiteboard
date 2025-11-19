@@ -17,7 +17,8 @@ const server = http.createServer(app);
 // --- CORS Configuration ---
 const allowedOrigins = [
     "http://localhost:3000", 
-    "https://collabboard-real-time-collaborative-thjg.onrender.com"
+    "https://collabboard-real-time-collaborative-thjg.onrender.com",
+    "https://whiteboard-1-p4c5.onrender.com"
 ];
 
 const io = socketIO(server, {
@@ -153,4 +154,5 @@ io.on('connection', (socket) => {
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
+
 });
